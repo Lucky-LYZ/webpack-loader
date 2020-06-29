@@ -40,7 +40,6 @@ module.exports = {
         use: {
           loader: 'html-loader',
           options: {
-            name: 'assets/[name].[hash:4].[ext]', // 符合该条件的png文件，将被统一打包至`output.path/assets/`目录下
             attrs: ['img:src', 'a:href'],
           }
         }

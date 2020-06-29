@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
     mode: 'none',
-    entry: './src/main.js',
+    entry: './src/05-self-markdown-loader/src/main.js',
     output: {
         filename: 'bundle.js',
         path: path.join(__dirname, 'dist'),
@@ -14,7 +14,7 @@ module.exports = {
                 test: /.md$/,
                 use: [
                     'html-loader',
-                    './markdown-loader'
+                    path.resolve(__dirname, "./markdown-loader.js"), // 使用自定义的loader处理【.md】文件
                 ]
             }
         ]
