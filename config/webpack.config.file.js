@@ -40,7 +40,7 @@ module.exports = {
       title: 'Multi Entry',
       template: './src/01-file-loader/index.html',
       filename: 'index.html',
-      chunks: ['index'], // 为page1指定特定的html模板文件
+      chunks: ['index'],
     }),
   ]
 }

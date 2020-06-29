@@ -100,13 +100,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const heading = Object(_heading_js__WEBPACK_IMPORTED_MODULE_0__["default"])()
-
-document.body.append(heading)
-
 const img = new Image()
 img.src = _img_icon_png__WEBPACK_IMPORTED_MODULE_2___default.a
 
-document.body.append(img)
+document.getElementById('app').append(heading)
+document.getElementById('app').append(img)
 
 
 /***/ }),
