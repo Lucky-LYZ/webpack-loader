@@ -7,7 +7,7 @@
 	"scripts": {
 		"build-file": "webpack --config ./config/webpack.config.file.js",
 		"build-url": "webpack --config ./config/webpack.config.url.js",
-		"build-babel": "webpack --config ./config/webpack.config.babel.js"
+		"build-babel": "webpack --config ./src/03-babel-loader/webpack.config.js"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.6.3",
