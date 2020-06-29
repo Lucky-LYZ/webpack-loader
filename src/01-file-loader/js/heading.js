@@ -1,4 +1,4 @@
-import './heading.css'
+import '../css/heading.css'
 
 export default () => {
   const element = document.createElement('h2')

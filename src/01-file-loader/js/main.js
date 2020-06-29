@@ -1,6 +1,6 @@
 import createHeading from './heading.js'
-import './main.css'
-import icon from './icon.png'
+import '../css/main.css'
+import icon from '../img/icon.png'
 
 const heading = createHeading()
 
