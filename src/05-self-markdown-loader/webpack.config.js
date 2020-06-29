@@ -14,7 +14,7 @@ module.exports = {
                 test: /.md$/,
                 use: [
                     'html-loader',
-                    path.resolve(__dirname, "./markdown-loader.js"), // 使用自定义的loader处理【.md】文件
+                    path.resolve(__dirname, "./src/selfLoader/markdown-loader.js"), // 使用自定义的loader处理【.md】文件
                 ]
             }
         ]

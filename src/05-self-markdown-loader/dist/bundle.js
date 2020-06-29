@@ -106,7 +106,7 @@ document.write(_about_md__WEBPACK_IMPORTED_MODULE_0___default.a);
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = "<h1 id=\"关于我\">关于我</h1>\n<p>我本来是一段 markdown 文本，现在通过自定义 loader，把我变成了 html!</p>\n";
+module.exports = "<h1 id=\"关于我\">关于我</h1>\n<p>我本来是一段 markdown 文本，现在通过自定义 loader，把我变成了 html！</p>\n";
 
 /***/ })
 /******/ ]);
